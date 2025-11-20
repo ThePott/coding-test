@@ -21,3 +21,7 @@ const submit = (candidate) => {
 
     return `${perferctCount}S ${numberOnlyCorrectCount}B`
 }
+
+const run = () => submit(2134)
+
+console.log(run())
